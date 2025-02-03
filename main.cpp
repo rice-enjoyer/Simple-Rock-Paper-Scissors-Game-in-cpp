@@ -65,15 +65,15 @@ char getComputerChoice()
 void showChoice(char choice)
 {
   switch (choice) {
-  case 'r':
-    std::cout << "Rock\n";
-    break;
-  case 'p':
-    std::cout << "Paper\n";
-    break;
-  case 's':
-    std::cout << "Scissors\n";
-    break;
+    case 'r':
+      std::cout << "Rock\n";
+      break;
+    case 'p':
+      std::cout << "Paper\n";
+      break;
+    case 's':
+      std::cout << "Scissors\n";
+      break;
   }
 }
 
