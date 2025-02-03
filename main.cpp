@@ -29,7 +29,7 @@ int main()
     std::cin >> again;
   } while (again == 'y' || again == 'Y');
 
-  std::cout << "Goodbye";
+  std::cout << "\nGoodbye";
   return 0;
 }
 
