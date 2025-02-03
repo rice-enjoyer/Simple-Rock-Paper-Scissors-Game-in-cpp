@@ -1,2 +1,2 @@
 # Simple-Rock-Paper-Scissors-Game-in-cpp
-Self explanatory again
+Self explanatory 
