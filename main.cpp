@@ -11,7 +11,7 @@ int main()
 {
   char player, computer, again;
 
-  srand(time(NULL));
+  srand(time(NULL)); // "Seeds" the random number
 
   std::cout << "********Rock, Paper, Scissors********\n";
 
