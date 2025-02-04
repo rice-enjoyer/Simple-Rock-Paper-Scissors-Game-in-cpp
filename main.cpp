@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+#include <cctype> // Needed for tolower()
 
 char getUserChoice();
 char getComputerChoice();
@@ -43,6 +44,7 @@ char getUserChoice()
     std::cout << "'p' for Paper\n";
     std::cout << "'s' for Scissors\n";
     std::cin >> player;
+    player = std::tolower(player); // Convert uppercase to lowecase
   } while (player != 'r' && player != 'p' && player != 's');
   return player;
 }
