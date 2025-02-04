@@ -44,7 +44,7 @@ char getUserChoice()
     std::cout << "'p' for Paper\n";
     std::cout << "'s' for Scissors\n";
     std::cin >> player;
-    player = std::tolower(player); // Convert uppercase to lowecase
+    player = std::tolower(player); // Converts uppercase to lowercase
   } while (player != 'r' && player != 'p' && player != 's');
   return player;
 }
